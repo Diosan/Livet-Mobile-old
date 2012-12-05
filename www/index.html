@@ -27,25 +27,33 @@
 	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
 </head> 
 
-<body> 
-
-<div data-role="page">
-
-	<div data-role="header">
-		<h1>Livet Mobile</h1>
-	</div><!-- /header -->
-
-	<div data-role="content">
-             <a data-role="button" href="http://173.230.136.190/kb">
+<body>
+        <!-- Home -->
+        <div data-role="page" id="page1">
+            <div data-theme="a" data-role="header">
+                <div style="">
+                    <img style="width: 120px; height: px" src="http://www.livethealth.com/images/logo.png" />
+                </div>
+                <h5>
+                    Livet Wellness
+                </h5>
+            </div>
+            <div data-role="content">
+                <a data-role="button" data-rel="back" data-theme="b" href="http://173.230.136.190/kb/index.php?title=Main_Page&amp;mobileaction=toggle_view_mobile">
                     Knowledge Base
-             </a>		
-	</div><!-- /content -->
-	
-	<div data-role="footer">
-		<h4>Powered by</h4><img src="http://www.scorecardmobile.com/scorecard.gif">
-	</div><!-- /footer -->
-	
-</div><!-- /page -->
-
-</body>
+                </a>
+                <a data-role="button" data-theme="b" href="tel:1868674-5015">
+                    Call Doctor Livet
+                </a>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed">
+                <h3>
+                    Powered by Scorecard
+                </h3>
+            </div>
+        </div>
+        <script>
+            //App custom javascript
+        </script>
+    </body>
 </html>
